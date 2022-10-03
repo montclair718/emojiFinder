@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #d4d3d8;
+}
+.container1 {
+  width: 100%;
+  max-height: auto;
+  background-color: #087990;
+  text-align: center;
+  padding-top: 68px;
+}
+
+h1 {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 87px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cff4fc;
+}
+
+.container1 p {
+  font-family: Inter;
+  font-size: 21px;
+  font-weight: 400;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #cff4fc;
+  margin-bottom: 50px;
+}
+
+input {
+  height: 64px;
+  width: 820px;
+  left: 0px;
+  top: 0px;
+  border-radius: 4px;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: left;
+  color: #abb5be;
+  border-style: none;
+  position: relative;
+  top: 32px;
+  cursor: pointer;
+  padding-left: 20px;
+}
+
+.container2 {
+  padding-top: 80px;
+  max-width: 1005px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 22px 19px;
+}
+
+.card {
+  padding: 24px;
+  width: 316px;
+  height: 184px;
+  border-radius: 4px;
+  text-align: center;
+  border: 1px solid;
+  background-color: #ffffff;
+}
+
+.card h2 {
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.card span {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 12px;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 28px;
+  text-decoration: underline;
+}
+
+.card p {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+}
+
+/* задача - */
+/* получить данные из инпута (адд евент листенер)
+  запустить функцию которая из большого массива данных сделает маленький массив данных с отфильтрованными данными
+   */
+/* сделать поиск /  */
